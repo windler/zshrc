@@ -13,7 +13,7 @@ zsh
 
 ## Preconditions
 The used theme needs special fonts. You may install PowerlineFonts (https://github.com/powerline/fonts).
-I use 15pt `Hack Regular`.
+I use `15pt Hack Regular`.
 
 ## Terminal App
 I use iTerm2 with `Solarized Dark` color-theme.
@@ -22,6 +22,7 @@ I use iTerm2 with `Solarized Dark` color-theme.
 Append if you want to `~/.zshrc`
 
 ```
+plugins=(
 git
 docker
 npm
@@ -30,6 +31,7 @@ composer
 sudo
 git-extras
 history
-docker-tests (see my repo)
-ws-conv (see my repo)
+zsh-phpunit-docker #(see my repo)
+zsh-ws-conv #(see my repo)
+)
 ```
